@@ -1,0 +1,27 @@
+
+.google
+{
+    color:red !important;
+    
+    
+}
+.google span{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    width: 200px;
+    background-color:cornflowerblue;
+    padding-left: 5px !important;
+    border-radius: 5px !important;
+}
+.g-signin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    margin-top: -50px;
+    margin-left: -50px;
+    background-color: red;
+    color:red !important;
+}
+

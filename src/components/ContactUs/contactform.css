@@ -1,0 +1,112 @@
+
+.row-contact{
+    background-color: white !important;
+    
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.form {
+  margin-top: 20px;
+  margin-left:  0px;
+  margin-right: 50px;
+  background: white !important;
+}
+
+.container_contact
+{
+    background-color: white !important;
+    width: inherit;
+}
+
+.ContactForm
+{
+    margin-top: -10px;
+    /* margin-left: 30%; */
+    margin-left: 0%;
+    background: white !important;
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    margin-bottom: 50px;
+    justify-content: start;
+    width: 100%;  
+}
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+  background-color: white;
+  box-shadow: 0 0 0 2px ;
+  border: none;
+  color: var(--green);
+}
+
+.formInput:focus {
+  background-color: var(--dark);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--green);
+  color: var(--light);
+}
+
+.formInput::placeholder {
+  color: var(--green);
+  opacity: 1;
+}
+
+.formInput:focus::placeholder {
+  color: var(--light);
+  opacity: 1;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  color: #fff;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 75px;
+  background-color: var(--green);
+}
+
+.submit-btn {
+  background-color: #ff5745;
+  color: white !important;
+  padding: 8px 50px;
+  border: 2px #ff5745;;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.submit-btn:hover {
+    background-color: blue !important;
+    color: white!important;
+  border: 2px solid var(--green);
+}
+
+.submit-btn:disabled:hover {
+  background-color: blue !important;
+  color: white!important;
+  cursor: wait;
+}
+
+.form-control
+{
+     color: #777 !important;
+}
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}

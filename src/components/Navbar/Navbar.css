@@ -1,0 +1,430 @@
+.gpt3__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 14rem;
+    padding-left: 3rem;
+    font-family: var(--font-family);
+    background: white !important;
+}
+
+.gpt3__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 80px;
+    font-family: var(--font-family);
+    
+}
+
+.gpt3__navbar-links_logo {
+    margin-right: 1rem;
+}
+.logo-text {
+    color:#777;
+        
+}
+.gpt3__header-content .h1
+    {
+        color: #FF4820;
+        font-size: 50px;
+    }
+.gpt3__navbar-links_logo img {
+    width:auto;
+    height:3em;
+    margin-left: 20px;
+}
+
+.gpt3__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.gpt3__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: white;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 5px;
+    width: 90px;
+}
+.gpt3__navbar-sign-in {
+        align-self: center;
+    display: flex;
+    background:#ff5745; 
+    background-color:#ff5745 !important; 
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    /* padding: 2px; */
+    border-radius: 5px;
+    width: 90px;
+
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+}
+.signin_up_button
+{
+    background: #ff5745 !important;
+    font-size: 16px!important;
+    width: 90px!important;
+    border-color: #ff5745!important;
+
+    border-radius: 5px!important;
+    align-self: center;
+    display: flex;
+    /* background: #ff5745; */
+    justify-content: center!important ;
+    align-content: center !important;
+    align-items: center!important;
+    color: white!important;
+    
+    padding: 8px!important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    
+    
+}
+.signin_up_button:hover
+{
+    background: blue !important;
+    font-size: 16px!important;
+    width: 90px!important;
+    border-color: blue!important;
+
+    border-radius: 5px!important;
+    align-self: center;
+    display: flex;
+    /* background: #ff5745; */
+    justify-content: center!important ;
+    align-content: center !important;
+    align-items: center!important;
+    color: white!important;
+    
+    padding: 8px!important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    
+    
+}
+.signin_up_button_transparent 
+{
+    background: #f8f9fa !important;
+    font-size: 16px!important;
+    width: 90px!important;
+    
+    border-color: #f8f8fa !important;
+    align-self: center;
+    display: flex;
+
+    justify-content: center!important ;
+    align-content: center !important;
+    align-items: center!important;
+    color: black!important;
+    
+    
+    padding: 8px!important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important; 
+}
+.signin_up_button_transparent:visited
+{
+    border-color: #f8f9fa !important ;
+}
+.btn:visited
+{
+    border-color: #f8f9fa !important ;
+}
+
+.signin_up_button_transparent:hover
+{
+    background: blue !important;
+    font-size: 16px!important;
+    width: 90px!important;
+    border-color: blue!important;
+
+    border-radius: 5px!important;
+    align-self: center;
+    display: flex;
+    /* background: #ff5745; */
+    justify-content: center!important ;
+    align-content: center !important;
+    align-items: center!important;
+    color: white!important;
+    
+    padding: 8px!important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    
+    
+}
+
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-sign-in p,
+.gpt3__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gpt3__navbar-sign button,
+
+.gpt3__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    /* background: #2534FF; */
+    background:#ff5745;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    width: 10rem;
+}
+
+.gpt3__navbar-sign-in button
+ {
+    padding: 0.5rem 1rem;
+    /* color: #2534FF; */
+    color:black;
+    background: #FFf;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    width: 11rem;
+}
+
+.gpt3__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.gpt3__navbar-menu svg {
+    cursor: pointer;
+    color:black;
+    background-color: black;
+}
+
+.gpt3__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.gpt3__navbar-menu_container p {
+    margin: 1rem 0;
+    width: min-content;
+}
+
+.gpt3__navbar-links_container a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    
+}
+.gpt3__navbar-menu_container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__navbar-links_container {
+        display: none;
+    }
+
+    .gpt3__navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__navbar {
+        padding: 2rem;
+    }
+
+    .gpt3__navbar-sign {
+        display: none;
+    }
+
+    .gpt3__navbar-menu_container {
+        top: 20px;
+    }
+
+    .gpt3__navbar-menu_container-links-sign {
+        display: block;
+    }
+}
+
+    .mr-auto my-2 my-lg-0
+    {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    @media (min-width: 992px)
+    {
+.navbar-expand-lg .navbar-nav-scroll {
+    overflow: visible;
+    
+}
+}
+    @media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        
+        width: 100%;
+        justify-content: center;
+        
+        margin-left: 120px;
+    }
+    .navbar-expand-lg .navbar-nav-scroll {
+        overflow: visible;
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+.bg-light {
+    --bs-bg-opacity: 00;
+    /* background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; */
+    background-color:white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    font-size: 15px;
+    color:#ff5745 !important;
+    font-family: var(--font-family);
+}
+
+.signin_up_button_navbar
+{
+    justify-content: space-around;
+    display: flex;
+    width: -moz-fit-content;
+    width: max-content;
+    margin-right: 30px;
+    
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    
+    
+}
+.signin_up_button btn btn-primary::selection
+{
+    border: none !important;
+    
+}
+.btn-primary{
+    background: white !important;
+    border: none !important;
+}
+.btn btn-primary:focus{
+   
+    border: none !important;
+}
+.btn:focus
+{
+    border: none !important;
+    box-shadow:none !important;
+}
+.signin_up_button:visited
+{
+  background-color:#ff5745!important;
+  transition-duration: 100s !important;
+  
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar-collapse {
+        height: auto;
+        flex-basis: 100%;
+        flex-grow: 1;
+        background: white;
+        flex-flow: column;
+        display: flex;
+        align-items: center;
+        align-items: center !important;
+    z-index: 999 !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+        font-weight: 600;
+        
+        font-family: var(--font-family);
+        width: 100% !important;
+        align-items: center;
+        align-items: center !important;
+        display: flex;
+        justify-content: center !important;
+
+    }
+    
+    .navbar-nav
+    {
+        width: 100%;
+    }
+
+    nav-link:visited
+    {
+display: none !important;
+    }
+
+    
+}

@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "synsta",
+    "synsta": "synsta",
+    "staging": "synsta",
+    "stagin": "synsta",
+    "synstasolutions-react": "synstasolutions-react"
+  },
+  "targets": {}
+}

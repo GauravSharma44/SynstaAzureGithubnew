@@ -1,0 +1,240 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+:root
+{
+    /* --font-family: 'Roboto', sans-serif; */
+    --font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+
+
+/* font-family: 'Dosis', sans-serif; */
+
+/* font-family: 'Estonia', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+font-family: 'Nunito Sans', sans-serif;
+/* min-height: calc(100vh - 210px); */
+
+
+}
+
+
+.banner
+{
+    width:100%;
+    height: 50vh;
+    background-size: cover;
+    /* background: url("/src/img/bg.jpg"); */
+    background: white;
+    background-color: white;
+    background-repeat: no-repeat;
+  
+    
+
+}
+
+.error {
+    position: absolute;
+    color: red;
+    font-size: .6rem;
+  }
+.signup-container
+{
+    min-width: 20rem;
+    max-width: 30rem !important;
+    justify-content: center;
+    display:block;
+    margin-left: 60rem;
+    align-content: center;
+    
+}
+@media only screen and (min-width: 992px) 
+{
+.me-auto
+{
+/* margin-left: 150px; */
+
+  font-size: 20px;
+  text-align: end !important;
+  justify-content: space-between;
+}
+.me-auto.navbar-nav
+{
+    text-align:right !important;
+    display:flex;
+    text-align-last: right;
+    align-self: end;
+    align-content: flex-end;
+    align-items: flex-end;
+font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+
+    .me-auto{
+        font-size: 20px !important;
+    }
+}
+
+.nav-link
+{
+    margin-left:1px;
+   align-self:end;
+   color:black !important;
+}
+.bg-myGrey
+{
+    
+    
+    background-color:white;
+    
+}
+.signup-header .nav-link
+{
+    font-size: 17px;
+    background-color:white;
+    border: 1px solid #166aea;
+    border-color:166aea;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
+    outline: none;
+    min-width: 130px;
+    line-height: 40px;
+    padding: 0 36px;
+    text-align: center;
+    color: #166aea !important;
+}
+.signup-header .nav-link:hover
+{
+    background-color:#166aea; 
+    color:white !important;
+
+}
+.signin-header .nav-link
+{
+    
+        font-size: 17px;
+        background-color:white;
+        border: 1px solid #166aea;
+        border-color:166aea;
+        border-radius: 100px;
+        text-decoration: none;
+        transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
+        outline: none;
+        min-width: 130px;
+        line-height: 40px;
+        padding: 0 36px;
+        text-align: center;
+        color: #166aea !important;
+    
+}
+
+.signin-header .nav-link:hover
+{
+    background-color:#166aea; 
+    color:white !important;
+
+}
+
+.navbar
+{
+    height:110px ;
+    border: none;
+    justify-content: space-between;
+
+    
+    
+}
+.app-main-nav
+{
+    width: 100% !important;
+    display: grid;
+}
+.nav{
+    display: grid !important;
+    width: 100%;
+}
+
+.mb-2 
+{
+    width: 300px;
+    display: grid;
+    text-align: start;
+    
+    font-size: 23px;
+    
+    
+}
+
+.signup-form
+{
+    
+    margin: auto;
+    
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    background-color: white;
+    outline-style:none;
+    border-radius: 50px;
+    padding: 25px;
+    outline-color: grey;
+   
+   
+} 
+.signup-form-title
+{
+    text-align: center;
+    outline-style:ridge;
+    width: fit-content;
+    align-content: center;
+    margin: auto;
+    border-radius: 30px;
+    outline-color:gray;
+    margin-top: 60px;
+    
+    
+}
+
+.form-control 
+{
+    min-height: 38px;
+    font-size: 20px !important;
+}
+
+.btn-danger
+{
+    margin-left: 20px;
+    
+}
+.error{
+    font-size: 12px;
+    text-align: end;
+    
+    position: relative;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .navbar
+{
+    height:110px ;
+    border: none;
+    margin-right: 10px;
+    justify-content: space-between;
+
+    
+    
+}
+
+}
